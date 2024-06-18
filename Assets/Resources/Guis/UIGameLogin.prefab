@@ -2102,7 +2102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .778508782, y: 176.02594, z: -.000183105469}
+  m_LocalPosition: {x: 580.301331, y: -.462890625, z: -.000183105469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400130}
@@ -2331,7 +2331,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -67.267807, y: -351.700012, z: 0}
+  m_LocalPosition: {x: 512.265991, y: -351.700012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -3898,11 +3898,11 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 4
+  aspectRatio: .5
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: e27d4598ff15cc149bd37f48235802ce, type: 3}
   mFont: {fileID: 0}
-  mText: "\u4FDD\u536B\u6587\u660E"
+  mText: "\u82F1\u96C4\u738B\u8005"
   mFontSize: 56
   mFontStyle: 1
   mAlignment: 2

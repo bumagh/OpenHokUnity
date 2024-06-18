@@ -74,7 +74,7 @@ public class CdCountDown : MonoBehaviour
             return;
         }
 
-        cdSlider.fillAmount = 1f - (start / timeLimit) - ((float)endtime.TotalSeconds / timeLimit);
+        cdSlider.fillAmount = 1f-(float)(endtime.TotalSeconds/((float)(timeLimit - start)));
     }
 }
 
