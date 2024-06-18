@@ -28,7 +28,7 @@ namespace BlGame.Network
 
         private TcpClient m_Client = null;
         private TcpClient m_Connecting = null;
-        private string m_IP = "182.61.50.221";
+        private string m_IP = "101.43.115.124";
         private Int32 m_Port = 40001;
         private Int32 m_n32ConnectTimes = 0;
         private ServerType serverType = ServerType.BalanceServer;
@@ -161,7 +161,7 @@ namespace BlGame.Network
            
             Debugger.Log("set network ip:" + ip + " port:" + port + " type:" + type);
             // m_IP = ip;
-            m_IP = "182.61.50.221";
+            m_IP = "101.43.115.124";
             m_Port = port;
             serverType = type;
             m_n32ConnectTimes = 0;

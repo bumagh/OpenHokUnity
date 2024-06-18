@@ -48,7 +48,7 @@ public class JxBlGame : MonoBehaviour {
     public List<string> ipList = new List<string>();
 
   //  public List<string> ServerIpList = new List<string>();
-    public string LoginServerAdress = "182.61.50.221";
+    public string LoginServerAdress = "101.43.115.124";
     public int LoginServerPort = 49996;
 
     public BlGame.AudioManager AudioPlay

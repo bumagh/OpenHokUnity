@@ -11,8 +11,8 @@ PlayerSettings:
   targetIOSGraphics: -1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: Newciviliz
-  productName: "\u4FDD\u536B\u6587\u660E"
+  companyName: HeroKing
+  productName: "\u82F1\u96C4\u738B\u8005"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -68,7 +68,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: me.newciviliz.proculture
+  iPhoneBundleIdentifier: org.akggame.heroking
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 95c2f2a6c23326a43b1e85c35e94e440
@@ -114,13 +114,13 @@ PlayerSettings:
   iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 3
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: E:/2-mywork/key0.jks
-  AndroidKeyaliasName: key0
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 1e05ba18ba560224ab0f85aa404b0f21, type: 3}
+    - m_Icon: {fileID: 2800000, guid: b579a7f97067e064094fc50a60a048fa, type: 3}
       m_Size: 128
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
