@@ -341,6 +341,7 @@ MonoBehaviour:
   - 127.0.0.1
   - 127.0.0.1
   - 127.0.0.1
+  ServerIpList: []
   LoginServerAdress: 127.0.0.1
   LoginServerPort: 49996
   SkipNewsGuide: 1

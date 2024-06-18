@@ -1,2 +1,0 @@
-02:39:03 : build assetbundle Assets/assetbundles/Media/Character/Model/ju_du_zhu_001_ty.FBX.bytes failed!!!
-02:50:25 : BuildResource finish

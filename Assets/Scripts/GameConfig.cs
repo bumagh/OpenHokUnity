@@ -29,7 +29,9 @@ namespace BlGame
             {                
                 //设置特效等级
                 WriteProfileString("Effect", "LodLevel", "High");
-                
+                //set default account
+				WriteProfileString("User","User","");
+				WriteProfileString("Pwd","Pwd","");
                 xml.SaveToFile(mGameConfigPath);
 
               

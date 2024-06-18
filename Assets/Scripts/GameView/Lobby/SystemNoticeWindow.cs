@@ -41,9 +41,9 @@ namespace BlGame.View
             mContent = mRoot.FindChild("ScrollView/Text/Label").GetComponent<UILabel>();
             mSureBtn = mRoot.FindChild("CtrlBtn").gameObject;
             mGrid = mRoot.FindChild("List/Panel/Grid").GetComponent<UIGrid>();
-            //close = mRoot.FindChild("Background/Black").gameObject;
+           // close = mRoot.FindChild("Background/Black").gameObject;
             UIEventListener.Get(mSureBtn).onClick += CloseNotice;
-            //UIEventListener.Get(close).onClick += Close;
+        //  UIEventListener.Get(close).onClick += Close;
         }
 
         private void Close(GameObject go)
@@ -59,9 +59,10 @@ namespace BlGame.View
             //SystemNoticeData.Instance.SetSystemNotList("title_" + num, (NoticeIdentify)(rand.Next(100) % 3),
             //    (NoticeState)(rand.Next(20) % 2), num, num + sssss[rand.Next(100) % (sssss.Length )]);
         }
-        //string[] sssss = { "[1313ff] 公告后台参考邮件后台\n，可采用相同模式。\n1.可选渠道and区服2.时间选定——上架/下架\n3.公告排序 ——升序/降序\n4.具备预览功能——前端显示匹配\n5.文本具备居中/左对齐/右对齐选择", "特点：登入游戏后弹出，左右两侧分栏显示，左侧为公告标题，右侧为公告正文区域，\n两侧皆可    上下滑动。", "左上角为公告属性，包括“活动”，“促销”，“维护”等字眼；", "右下角为公告状态，包括“NEW（新）”，“HOT（火爆）”字眼" };
+        string[] sssss = { "[1313ff] 公告后台参考邮件后台\n，可采用相同模式。\n1.可选渠道and区服2.时间选定——上架/下架\n3.公告排序 ——升序/降序\n4.具备预览功能——前端显示匹配\n5.文本具备居中/左对齐/右对齐选择", "特点：登入游戏后弹出，左右两侧分栏显示，左侧为公告标题，右侧为公告正文区域，\n两侧皆可    上下滑动。", "左上角为公告属性，包括“活动”，“促销”，“维护”等字眼；", "右下角为公告状态，包括“NEW（新）”，“HOT（火爆）”字眼" };
         void SetAllNotice()
         {
+            Debug.Log("setallnotice");
             mLastObj = null;
             if (mNoticeTitle.Count > 0)
             {

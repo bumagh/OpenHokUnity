@@ -32,7 +32,7 @@ public class CdCountDown : MonoBehaviour
 
     public void SetCdShow(bool visiable)
     {
-        cdSlider.fillAmount = 1;
+        cdSlider.fillAmount = 1f;
         if (cdSlider.gameObject.activeInHierarchy != visiable)
         {
             cdSlider.gameObject.SetActive(visiable);
@@ -57,7 +57,7 @@ public class CdCountDown : MonoBehaviour
         {
             cdSlider.gameObject.SetActive(false);
         }
-        cdSlider.fillAmount = 0;
+        cdSlider.fillAmount = 0f;
         canCountCd = false;
         if (CdCountDownEvent != null)
             CdCountDownEvent(this);
@@ -73,8 +73,9 @@ public class CdCountDown : MonoBehaviour
             EndCdCountDown();
             return;
         }
-
-        cdSlider.fillAmount = 1f-(float)(endtime.TotalSeconds/((float)(timeLimit - start)));
+		cdSlider.fillAmount = 1f-(float)(endtime.TotalSeconds/((float)(timeLimit - start)));
+        Debug.Log (1f-(float)(endtime.TotalSeconds/((float)(timeLimit - start))));
+//        cdSlider.fillAmount = 1f - (start / timeLimit) - ((float)endtime.TotalSeconds / timeLimit);
     }
 }
 

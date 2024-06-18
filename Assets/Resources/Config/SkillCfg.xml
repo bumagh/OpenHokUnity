@@ -5074,14 +5074,14 @@
 		<n32UpgradeLevel>1</n32UpgradeLevel>
 		<n32IsAffectBySilent>1</n32IsAffectBySilent>
 		<n32IsAffectByDisarm>0</n32IsAffectByDisarm>
-		<n32UseMP>50</n32UseMP>
+		<n32UseMP>30</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
 		<n32PrepareAction>free</n32PrepareAction>
 		<n32PrepareTime>0</n32PrepareTime>
 		<n32ReleaseTime>150</n32ReleaseTime>
 		<n32ControlTime>0</n32ControlTime>
-		<n32CoolDown>10000</n32CoolDown>
+		<n32CoolDown>1000</n32CoolDown>
 		<n32ReleaseDistance>1000</n32ReleaseDistance>
 		<bIfCallScriptWhilePrepare>0</bIfCallScriptWhilePrepare>
 		<bIfCallScriptWhileRelease>0</bIfCallScriptWhileRelease>
@@ -5091,7 +5091,7 @@
 		<bIfAffectBuilding>0</bIfAffectBuilding>
 		<bIfAffectHero>1</bIfAffectHero>
 		<bIfAffectMonster>1</bIfAffectMonster>
-		<eTargetType>3</eTargetType>
+		<eTargetType>0</eTargetType>
 		<n32Range>1</n32Range>
 		<n32RangePar1>0</n32RangePar1>
 		<n32RangePar2>0</n32RangePar2>

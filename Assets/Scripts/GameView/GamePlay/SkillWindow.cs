@@ -218,7 +218,7 @@ namespace BlGame.View
             if (Application.platform == RuntimePlatform.Android
                      || Application.platform == RuntimePlatform.IPhonePlayer
                      || Application.platform == RuntimePlatform.WP8Player
-                     || Application.platform == RuntimePlatform.BlackBerryPlayer)
+                     )
             {
                 if (Input.touchCount <= 0)
                     return;

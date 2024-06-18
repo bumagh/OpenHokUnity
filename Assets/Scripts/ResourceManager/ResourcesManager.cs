@@ -5,7 +5,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Object = UnityEngine.Object;
-
 namespace BlGame.Resource
 {
     public class ResourcesManager : UnitySingleton<ResourcesManager>
@@ -27,7 +26,6 @@ namespace BlGame.Resource
         public delegate void HandleFinishLoad(ResourceUnit resource);
         public delegate void HandleFinishLoadLevel();
         public delegate void HandleFinishUnLoadLevel();
-
 
 
         //internal Hashtable mLoadedResourceUnit;

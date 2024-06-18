@@ -34,6 +34,7 @@
 		<IsTrain>0</IsTrain>
 		<IsDungeon>0</IsDungeon>
 	</info>
+
 	<info MapID="1000">
 		<LoadScene>pvp_000</LoadScene>
 		<MiniMap>MiniMap_002</MiniMap>

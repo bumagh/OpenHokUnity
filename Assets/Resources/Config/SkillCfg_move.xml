@@ -25,7 +25,7 @@
 		<MoveAction>free</MoveAction>
 		<EventID>0</EventID>
 	</info>
-	<info/>
+	
 	<info un32ID="170003">
 		<szName>瞬刺等级1</szName>
 		<n32UseMP>0</n32UseMP>
@@ -42,7 +42,7 @@
 		<eMovedTarget>1</eMovedTarget>
 		<eMoveToTarget>2</eMoveToTarget>
 		<n32Angle>0</n32Angle>
-		<n32Distance>4000</n32Distance>
+		<n32Distance>2000</n32Distance>
 		<n32Speed>0</n32Speed>
 		<n32FlyEffect>0</n32FlyEffect>
 		<n32MoveSound>0</n32MoveSound>
@@ -92,7 +92,7 @@
 		<eMovedTarget>1</eMovedTarget>
 		<eMoveToTarget>2</eMoveToTarget>
 		<n32Angle>0</n32Angle>
-		<n32Distance>4000</n32Distance>
+		<n32Distance>6000</n32Distance>
 		<n32Speed>0</n32Speed>
 		<n32FlyEffect>0</n32FlyEffect>
 		<n32MoveSound>0</n32MoveSound>

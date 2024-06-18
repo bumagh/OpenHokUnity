@@ -108,34 +108,31 @@ public class DebugManager : MonoBehaviour
     //特效信息窗口
     public Rect effectInfoWindowRect = new Rect(80, 20, 800, 2000);
     //错误信息窗口
-    public Rect errorInfoWindowRect = new Rect(150, 200, 800, 2000);
-
+    public Rect errorInfoWindowRect = new Rect(80, 20, 800, 2000);
 
     void OnGUI()
     {
         GUILayout.Space(40);
-        if (GUILayout.Button("ShowError"))
-        {
-            DebugInfo = !DebugInfo;
-        }
-        else if (GUILayout.Button("Clear",GUILayout.Width(60),GUILayout.Height(20)))
-        {
-            //errorInfoList.Clear();
-            //todo更新apk
+        //if (GUILayout.Button("ShowError"))
+        //{
+        //    DebugInfo = !DebugInfo;
+        //}
+        //else if (GUILayout.Button("Clear"))
+        //{
+        //    errorInfoList.Clear();
+        //}
 
-        }
+        ////调试特效信息
+        //if (DebugEffect)
+        //{
+        //    effectInfoWindowRect = GUILayout.Window(0, effectInfoWindowRect, DebugEffectWindow, "Debug Effect Window");            
+        //}                
 
-        //调试特效信息
-        if (DebugEffect)
-        {
-            effectInfoWindowRect = GUILayout.Window(0, effectInfoWindowRect, DebugEffectWindow, "Debug Effect Window");            
-        }                
-
-        //调试错误信息
-        if (DebugInfo)
-        {
-            errorInfoWindowRect = GUILayout.Window(1, errorInfoWindowRect, DebugErrorWindow, "Debug Error Window");            
-        }
+        ////调试错误信息
+        //if (DebugInfo)
+        //{
+        //    errorInfoWindowRect = GUILayout.Window(1, errorInfoWindowRect, DebugErrorWindow, "Debug Error Window");            
+        //}
     }
 
 

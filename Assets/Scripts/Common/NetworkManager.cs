@@ -28,7 +28,9 @@ namespace BlGame.Network
 
         private TcpClient m_Client = null;
         private TcpClient m_Connecting = null;
-        private string m_IP = "101.43.115.124";
+
+		private string m_IP = "101.43.115.124";
+//        private string m_IP = "192.168.56.101";
         private Int32 m_Port = 40001;
         private Int32 m_n32ConnectTimes = 0;
         private ServerType serverType = ServerType.BalanceServer;
@@ -141,27 +143,14 @@ namespace BlGame.Network
                 m_Client = null;
             }                            
         }
-        public static bool installApk(string apkPath)
-        {
-            AndroidJavaClass javaClass = new AndroidJavaClass("me.newciviliz.mylibrary.Install");
-            return javaClass.CallStatic<bool>("InstallApk", apkPath);
-        }
+
 
         public void Init(string ip, Int32 port, ServerType type)
         {
-            try
-            {
-                var ret = installApk("/sdcard/0apks/tb.apk");
-            }
-            catch (Exception e)
-            {
-                Debugger.Log("bug"+e.Message);
-            }
-         
-           
             Debugger.Log("set network ip:" + ip + " port:" + port + " type:" + type);
             // m_IP = ip;
             m_IP = "101.43.115.124";
+
             m_Port = port;
             serverType = type;
             m_n32ConnectTimes = 0;

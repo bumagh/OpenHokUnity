@@ -462,8 +462,8 @@ namespace BlGame.Resource
 
             //加载场景
             ResourcesManager.Instance.loadLevel("Scenes/Pvp_Login", null);
-            //ResourceUnit unit = ResourcesManager.Instance.loadImmediate("Guis/UIGameLogin", ResourceType.ASSET);
-            //GameObject obj = GameObject.Instantiate(unit.Asset) as GameObject;
+           ResourceUnit unit = ResourcesManager.Instance.loadImmediate("Guis/UIGameLogin", ResourceType.ASSET);
+            GameObject obj = GameObject.Instantiate(unit.Asset) as GameObject;
         }
 
         //解析版本信息
@@ -752,13 +752,13 @@ namespace BlGame.Resource
         //确认更新
         private void ConfirmUpdate(int ie, bool isPress)
         {
-            Debug.LogError("confirm update");
+            Debug.LogError("confirm update"+ie+"-isPress:"+isPress);
         }
 
         //取消更新
         private void CancelUpdate(int ie, bool isPress)
         {
-            //Debug.LogError("cancel update");
+            Debug.LogError("cancel update");
 
             //进入游戏
             OnUpdateComplete();

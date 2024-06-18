@@ -32,7 +32,9 @@ namespace BlGame.Ctrl
             SelectServerData.Instance.SetServerInfo((int)SdkManager.Instance.GetPlatFrom(), account, pass);
             NetworkManager.Instance.canReconnect = false;
             NetworkManager.Instance.Close();
-            NetworkManager.Instance.Init(JxBlGame.Instance.LoginServerAdress, 49996, NetworkManager.ServerType.LoginServer);
+//            NetworkManager.Instance.Init(JxBlGame.Instance.LoginServerAdress, 49996, NetworkManager.ServerType.LoginServer);
+			NetworkManager.Instance.Init("101.43.115.124", 49996, NetworkManager.ServerType.LoginServer);
+//			NetworkManager.Instance.Init("192.168.56.101", 49996, NetworkManager.ServerType.LoginServer);
         }
 
         //登陆错误反馈
@@ -46,13 +48,18 @@ namespace BlGame.Ctrl
         public void RecvGateServerInfo(Stream stream)
         {
             BSToGC.AskGateAddressRet pMsg = ProtoBuf.Serializer.Deserialize<BSToGC.AskGateAddressRet>(stream);
-            SelectServerData.Instance.GateServerAdress = pMsg.ip;
+            //SelectServerData.Instance.GateServerAdress = pMsg.ip;
+			SelectServerData.Instance.GateServerAdress = "101.43.115.124";
+//			SelectServerData.Instance.GateServerAdress = "192.168.56.101";
+            //"212.64.12.155"
             SelectServerData.Instance.GateServerPort = pMsg.port;
             SelectServerData.Instance.GateServerToken = pMsg.token;
             SelectServerData.Instance.SetGateServerUin(pMsg.user_name);
             NetworkManager.Instance.canReconnect = false;
             NetworkManager.Instance.Close();
-            NetworkManager.Instance.Init(pMsg.ip, pMsg.port, NetworkManager.ServerType.GateServer); 
+
+			NetworkManager.Instance.Init("101.43.115.124", pMsg.port, NetworkManager.ServerType.GateServer); 
+//			NetworkManager.Instance.Init("192.168.56.101", pMsg.port, NetworkManager.ServerType.GateServer); 
 
             EventCenter.Broadcast(EGameEvent.eGameEvent_LoginSuccess);
         }
@@ -68,7 +75,8 @@ namespace BlGame.Ctrl
         public void SelectLoginServer(int i)
         {
             string ip = JxBlGame.Instance.ipList.ElementAt(i);
-            JxBlGame.Instance.LoginServerAdress = ip;
+//            JxBlGame.Instance.LoginServerAdress = "192.168.56.101";
+			JxBlGame.Instance.LoginServerAdress = "101.43.115.124";
         }
 
         //更新服务器列表

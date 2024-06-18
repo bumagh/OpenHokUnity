@@ -42,7 +42,7 @@ namespace BlGame.View
         //每帧更新
         public virtual void Update(float deltaTime) { }
 
-        //取得所以场景类型
+        //取得所有场景类型
         public EScenesType GetScenseType()
         {
             return mScenesType;
