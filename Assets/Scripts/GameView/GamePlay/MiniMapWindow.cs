@@ -11,6 +11,8 @@ using BlGame;
 using BlGame.GuideDate;
 using BlGame.Ctrl;
 using BlGame.Model;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 namespace BlGame.View
 {
@@ -50,11 +52,16 @@ namespace BlGame.View
             {
                 string path = "Guis/Play/" + map.mMiniMap;
                 mMapGround = LoadUiResource.AddChildObject(mMapPanel, path).transform;
+                mMapGround.GetComponent<ButtonOnPress>().AddListener(HandleMapGroundClick);
                 mMapGround.localPosition = new Vector3(-150, -100, 0);
                 mMapGround.localEulerAngles = new Vector3(0, 0, 0);
             }
         }
-
+         void HandleMapGroundClick(int ie, bool isPress)
+        {
+            Debug.Log("Button被点击了！");
+            // 在这里添加你的逻辑  
+        }
         //删除Login外其他控件，例如
         public static void DestroyOtherUI()
         {
