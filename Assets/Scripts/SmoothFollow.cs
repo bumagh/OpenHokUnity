@@ -5,6 +5,7 @@ public class SmoothFollow : MonoBehaviour {
 
     // The target we are following
     public Transform target;
+    public Transform slideTarget;
     // The distance in the x-z plane to the target
     public float distance = 10.0f;
     // the height we want the camera to be above the target
@@ -34,7 +35,7 @@ public class SmoothFollow : MonoBehaviour {
     public float slideSpeed = 10f; // 滑动速度  
     private Vector3 startPosition; // 滑动起始位置（世界空间或屏幕空间）  
     private Vector3 lastPosition; // 上一个位置（用于计算滑动向量）  
-    private bool isSliding = false; // 是否正在滑动  
+    public bool isSliding = false; // 是否正在滑动  
 
     // Use this for initialization
     void Start ()
@@ -52,55 +53,57 @@ public class SmoothFollow : MonoBehaviour {
 
     void FixedUpdate()
     {
-        if (Input.touchCount > 0) // 处理触摸输入  
-        {
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
-            {
-                if (IsTouchInSlideArea(touch.position))
-                {
-                    isSliding = true;
-                    startPosition = Input.mousePosition;
-                    lastPosition = startPosition;
-                }
-            }
-            else if (touch.phase == TouchPhase.Moved && isSliding)
-            {
-                CameraMoving = true;
-                Vector3 currentPosition = Input.mousePosition;
-                Vector3 slideDelta = (currentPosition - lastPosition) * slideSpeed * Time.deltaTime;
-                SlideCamera(slideDelta);
-                lastPosition = currentPosition;
-            }
-            else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
-            {
-                isSliding = false;
-                CameraMoving = false;
+        //if (Input.touchCount > 0) // 处理触摸输入  
+        //{
+        //    Touch touch = Input.GetTouch(0);
+        //    if (touch.phase == TouchPhase.Began)
+        //    {
+        //        if (IsMouseInSlideArea(touch.position))
+        //        {
+        //            isSliding = true;
+        //            startPosition = Input.mousePosition;
+        //            lastPosition = startPosition;
+        //        }
+        //    }
+        //    else if (touch.phase == TouchPhase.Moved && isSliding)
+        //    {
+        //        CameraMoving = true;
+        //        Vector3 currentPosition = Input.mousePosition;
+        //        Vector3 slideDelta = (currentPosition - lastPosition) * slideSpeed * Time.deltaTime;
+        //        SlideCamera(slideDelta);
+        //        lastPosition = currentPosition;
+        //    }
+        //    else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+        //    {
+        //        isSliding = false;
+        //        CameraMoving = false;
 
-            }
-        }
-        else if (Input.GetMouseButtonDown(0)) // 处理鼠标输入  
-        {
-            if (IsMouseInSlideArea(Input.mousePosition))
-            {
-                isSliding = true;
-                startPosition = Input.mousePosition;
-                lastPosition = startPosition;
-            }
-        }
-        else if (Input.GetMouseButton(0) && isSliding) // 鼠标按下并移动  
-        {
-            CameraMoving = true;
-            Vector3 currentPosition = Input.mousePosition;
-            Vector3 slideDelta = (currentPosition - lastPosition) * slideSpeed * Time.deltaTime;
-            SlideCamera(slideDelta);
-            lastPosition = currentPosition;
-        }
-        else if (Input.GetMouseButtonUp(0)) // 鼠标释放  
-        {
-            isSliding = false;
-            CameraMoving = false;
-        }
+        //    }
+        //}
+        //if (Input.GetMouseButtonDown(0)) // 处理鼠标输入  
+        //{
+
+        //    Debug.Log(IsMouseInSlideArea(Input.mousePosition));
+        //    if (IsMouseInSlideArea(Input.mousePosition))
+        //    {
+        //        isSliding = true;
+        //        startPosition = Input.mousePosition;
+        //        lastPosition = startPosition;
+        //    }
+        //}
+        //else if (Input.GetMouseButton(0) && isSliding) // 鼠标按下并移动  
+        //{
+        //    CameraMoving = true;
+        //    Vector3 currentPosition = Input.mousePosition;
+        //    Vector3 slideDelta = (currentPosition - lastPosition) * slideSpeed * Time.deltaTime;
+        //    SlideCamera(slideDelta);
+        //    lastPosition = currentPosition;
+        //}
+        //else if (Input.GetMouseButtonUp(0)) // 鼠标释放  
+        //{
+        //    isSliding = false;
+        //    CameraMoving = false;
+        //}
     }
     // 根据滑动向量滑动相机  
     private void SlideCamera(Vector3 slideDelta)
@@ -119,11 +122,12 @@ public class SmoothFollow : MonoBehaviour {
     // 检查鼠标位置是否在滑动区域内（对于UI或3D滑动区域）  
     private bool IsMouseInSlideArea(Vector3 mousePosition)
     {
-        // 这里你需要根据你的滑动区域类型来实现检查逻辑  
-        // 如果是UI元素，使用RectTransform  
-        // 如果是3D对象，使用射线投射（Raycasting）  
-        // 这里只是一个示例，需要替换为实际检查逻辑  
-        return true; // 替换为实际检查逻辑  
+        //1077 757
+        //1305 762
+        if (mousePosition.x > 1077 && mousePosition.x < 1305 && mousePosition.y > 757 && mousePosition.y < 762)
+            return true;
+        else return false;
+        //return isSliding; // 替换为实际检查逻辑  
     }
     //获取Transform
     public Transform GetTransform()
@@ -218,13 +222,5 @@ public class SmoothFollow : MonoBehaviour {
         curFrame = Time.frameCount;
     }
 
-    private bool IsTouchInSlideArea(Vector2 touchPosition)
-    {
-        // 如果slideArea是UI元素，使用RectTransform的Rect属性来检查  
-        // 如果slideArea是3D对象，你需要将其屏幕坐标转换为世界坐标，然后进行检查  
-        // 这里假设slideArea是UI元素  
-        //Rect screenRect = new Rect(slideArea.position.x, slideArea.position.y, slideArea.sizeDelta.x, slideArea.sizeDelta.y);
-        //return screenRect.Contains(touchPosition);
-        return true;
-    }
+ 
 }
