@@ -703,7 +703,7 @@
 		<szEffectIcon>04</szEffectIcon>
 	</info>
 	<info un32ID="1041">
-		<szName>飞樱漫舞</szName>
+		<szName>伽罗</szName>
 		<bIsSendMsg>1</bIsSendMsg>
 		<n32RepeatTimes>1</n32RepeatTimes>
 		<n32ReplaceID>0</n32ReplaceID>
@@ -719,7 +719,7 @@
 		<szEffection>sakuraarea</szEffection>
 	</info>
 	<info un32ID="1042">
-		<szName>飞樱漫舞EX</szName>
+		<szName>伽罗EX</szName>
 		<bIsSendMsg>1</bIsSendMsg>
 		<n32RepeatTimes>1</n32RepeatTimes>
 		<n32ReplaceID>0</n32ReplaceID>

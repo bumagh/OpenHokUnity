@@ -66,7 +66,7 @@
 	</info>
 	<info/>
 	<info un32ID="160001">
-		<szName>飞樱漫舞等级1</szName>
+		<szName>伽罗等级1</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -98,7 +98,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160002">
-		<szName>飞樱漫舞等级2</szName>
+		<szName>伽罗等级2</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -130,7 +130,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160003">
-		<szName>飞樱漫舞等级3</szName>
+		<szName>伽罗等级3</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -1442,7 +1442,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160044">
-		<szName>飞樱漫舞EX</szName>
+		<szName>伽罗EX</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -3299,7 +3299,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160103">
-		<szName>飞樱漫舞等级1-缴械</szName>
+		<szName>伽罗等级1-缴械</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -3331,7 +3331,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160104">
-		<szName>飞樱漫舞等级2-缴械</szName>
+		<szName>伽罗等级2-缴械</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -3363,7 +3363,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160105">
-		<szName>飞樱漫舞等级3-缴械</szName>
+		<szName>伽罗等级3-缴械</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -3395,7 +3395,7 @@
 		<EndEventID>0</EndEventID>
 	</info>
 	<info un32ID="160106">
-		<szName>飞樱漫舞EX-缴械</szName>
+		<szName>伽罗EX-缴械</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>

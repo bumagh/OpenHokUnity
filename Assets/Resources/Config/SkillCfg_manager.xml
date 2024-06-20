@@ -457,7 +457,7 @@
 		<EventID>120032</EventID>
 	</info>
 	<info un32ID="1101301">
-		<szName>寒辉之羽攻击</szName>
+		<szName>冰精灵攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -492,7 +492,7 @@
 		<EventID>130016</EventID>
 	</info>
 	<info un32ID="1101401">
-		<szName>石斧巨人攻击</szName>
+		<szName>程咬金攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -527,7 +527,7 @@
 		<EventID>120035</EventID>
 	</info>
 	<info un32ID="1101501">
-		<szName>惩戒者攻击</szName>
+		<szName>盘古攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -562,7 +562,7 @@
 		<EventID>120036</EventID>
 	</info>
 	<info un32ID="1101601">
-		<szName>洞窟蝙蝠攻击</szName>
+		<szName>蝙蝠攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -597,7 +597,7 @@
 		<EventID>130020</EventID>
 	</info>
 	<info un32ID="1101701">
-		<szName>瘟疫巫师攻击</szName>
+		<szName>巫师攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -667,7 +667,7 @@
 		<EventID>120045</EventID>
 	</info>
 	<info un32ID="1101901">
-		<szName>泰狱神攻击</szName>
+		<szName>石神攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -737,7 +737,7 @@
 		<EventID>130022</EventID>
 	</info>
 	<info un32ID="1102101">
-		<szName>黑魔律攻击</szName>
+		<szName>大乔攻击</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -2147,7 +2147,7 @@
 		<EventID>131003</EventID>
 	</info>
 	<info un32ID="1200201">
-		<szName>飞樱漫舞等级1</szName>
+		<szName>伽罗等级1</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2,3</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -2182,7 +2182,7 @@
 		<EventID>160001</EventID>
 	</info>
 	<info un32ID="1200202">
-		<szName>飞樱漫舞等级2</szName>
+		<szName>伽罗等级2</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2,3</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -2217,7 +2217,7 @@
 		<EventID>160002</EventID>
 	</info>
 	<info un32ID="1200203">
-		<szName>飞樱漫舞等级3</szName>
+		<szName>伽罗等级3</szName>
 		<CameraType>0</CameraType>
 		<SkillType>2,3</SkillType>
 		<bIsInstant>0</bIsInstant>
@@ -6698,7 +6698,7 @@
 		<EventID>140053</EventID>
 	</info>
 	<info un32ID="1300201">
-		<szName>飞樱漫舞EX</szName>
+		<szName>伽罗EX</szName>
 		<CameraType>6002</CameraType>
 		<SkillType>2</SkillType>
 		<bIsInstant>0</bIsInstant>

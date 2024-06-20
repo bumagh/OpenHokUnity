@@ -793,7 +793,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120034">
-		<szName>寒辉之羽攻击</szName>
+		<szName>冰精灵攻击</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -817,7 +817,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120035">
-		<szName>石斧巨人攻击</szName>
+		<szName>程咬金攻击</szName>
 		<bIsCoolDown>1</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -841,7 +841,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120036">
-		<szName>惩戒者攻击</szName>
+		<szName>盘古攻击</szName>
 		<bIsCoolDown>1</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -1009,7 +1009,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120043">
-		<szName>洞窟蝙蝠攻击</szName>
+		<szName>蝙蝠攻击</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -1033,7 +1033,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120044">
-		<szName>瘟疫巫师攻击</szName>
+		<szName>巫师攻击</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -1081,7 +1081,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120046">
-		<szName>泰狱神攻击</szName>
+		<szName>石神攻击</szName>
 		<bIsCoolDown>1</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -1129,7 +1129,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="120048">
-		<szName>黑魔律攻击</szName>
+		<szName>大乔攻击</szName>
 		<bIsCoolDown>1</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>1</bIfAffectBuilding>
@@ -1298,7 +1298,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="121004">
-		<szName>飞樱漫舞等级1</szName>
+		<szName>伽罗等级1</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>0</bIfAffectBuilding>
@@ -1321,7 +1321,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="121005">
-		<szName>飞樱漫舞等级2</szName>
+		<szName>伽罗等级2</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>0</bIfAffectBuilding>
@@ -1344,7 +1344,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="121006">
-		<szName>飞樱漫舞等级3</szName>
+		<szName>伽罗等级3</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>0</bIfAffectBuilding>
@@ -2399,7 +2399,7 @@
 		<n32EventID>0</n32EventID>
 	</info>
 	<info un32ID="121050">
-		<szName>飞樱漫舞EX</szName>
+		<szName>伽罗EX</szName>
 		<bIsCoolDown>0</bIsCoolDown>
 		<n32TriggerRate>1000</n32TriggerRate>
 		<bIfAffectBuilding>0</bIfAffectBuilding>

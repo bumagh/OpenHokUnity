@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SkillCfg_area xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<info un32ID="140001">
-		<szName>飞樱漫舞等级1</szName>
+		<szName>伽罗等级1</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -25,7 +25,7 @@
 		<EventID>121004:0;160103:0</EventID>
 	</info>
 	<info un32ID="140002">
-		<szName>飞樱漫舞等级2</szName>
+		<szName>伽罗等级2</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -49,7 +49,7 @@
 		<EventID>121005:0;160104:0</EventID>
 	</info>
 	<info un32ID="140003">
-		<szName>飞樱漫舞等级3</szName>
+		<szName>伽罗等级3</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -526,7 +526,7 @@
 		<EventID>121045</EventID>
 	</info>
 	<info un32ID="140025">
-		<szName>飞樱漫舞EX</szName>
+		<szName>伽罗EX</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>

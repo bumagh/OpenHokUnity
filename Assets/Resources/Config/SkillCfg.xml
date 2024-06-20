@@ -8215,7 +8215,7 @@
 		<info>阿斯顿撒旦</info>
 	</info>
 	<info un32ID="112101">
-		<szName>飞樱漫舞等级1</szName>
+		<szName>伽罗等级1</szName>
 		<bIfNormal>0</bIfNormal>
 		<eCountdownCate>2</eCountdownCate>
 		<bIsConsumeSkill>0</bIsConsumeSkill>
@@ -8301,7 +8301,7 @@
 		<WEffectTime>1</WEffectTime>
 	</info>
 	<info un32ID="112102">
-		<szName>飞樱漫舞等级2</szName>
+		<szName>伽罗等级2</szName>
 		<bIfNormal>0</bIfNormal>
 		<eCountdownCate>2</eCountdownCate>
 		<bIsConsumeSkill>0</bIsConsumeSkill>
@@ -8387,7 +8387,7 @@
 		<WEffectTime>1</WEffectTime>
 	</info>
 	<info un32ID="112103">
-		<szName>飞樱漫舞等级3</szName>
+		<szName>伽罗等级3</szName>
 		<bIfNormal>0</bIfNormal>
 		<eCountdownCate>2</eCountdownCate>
 		<bIsConsumeSkill>0</bIsConsumeSkill>
@@ -11514,7 +11514,7 @@
 		<info>阿斯顿撒旦</info>
 	</info>
 	<info un32ID="152101">
-		<szName>飞樱漫舞EX</szName>
+		<szName>伽罗EX</szName>
 		<bIfNormal>0</bIfNormal>
 		<eCountdownCate>2</eCountdownCate>
 		<bIsConsumeSkill>0</bIsConsumeSkill>
@@ -12810,7 +12810,7 @@
 		<info>阿斯顿撒阿</info>
 	</info>
 	<info un32ID="201201">
-		<szName>飞樱漫舞</szName>
+		<szName>伽罗</szName>
 		<bIfNormal>0</bIfNormal>
 		<eCountdownCate>1</eCountdownCate>
 		<bIsConsumeSkill>1</bIsConsumeSkill>

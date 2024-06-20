@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <HeroBuyCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<info un32ID="100001">
-		<Name>飞樱漫舞</Name>
+		<Name>伽罗</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
 		<n32Price>2500</n32Price>
@@ -14,7 +14,7 @@
 		<OnSaleSkins>111001,111002</OnSaleSkins>
 	</info>
 	<info un32ID="100002">
-		<Name>破灭之剑</Name>
+		<Name>亚瑟</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -27,7 +27,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100003">
-		<Name>幽影幻刺</Name>
+		<Name>橘右京</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -40,7 +40,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100004">
-		<Name>绝对零度</Name>
+		<Name>冰霜法师</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -53,7 +53,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100005">
-		<Name>湮灭烈焰</Name>
+		<Name>火龙</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -66,10 +66,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100006">
-		<Name>流星之箭</Name>
+		<Name>虞姬</Name>
 		<HeroKind>1</HeroKind>
-		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>7700</n32Price>
+		<un8ConsumeType>0</un8ConsumeType>
+		<n32Price>0</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10006</UnlockHeroID>
@@ -79,7 +79,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100007">
-		<Name>剧毒行者</Name>
+		<Name>毒蜘蛛</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -92,7 +92,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100008">
-		<Name>冲刺之牙</Name>
+		<Name>典韦</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -105,7 +105,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100009">
-		<Name>征战先锋</Name>
+		<Name>斧骑士</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -118,10 +118,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100010">
-		<Name>深渊之刺</Name>
+		<Name>刺甲虫</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>4600</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10010</UnlockHeroID>
@@ -131,10 +131,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100011">
-		<Name>风暴之女</Name>
+		<Name>武则天</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>7700</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10011</UnlockHeroID>
@@ -144,10 +144,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100012">
-		<Name>炼狱使者</Name>
+		<Name>血狼</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>23000</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10012</UnlockHeroID>
@@ -157,10 +157,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100013">
-		<Name>寒辉之羽</Name>
+		<Name>冰精灵</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>7700</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10013</UnlockHeroID>
@@ -170,10 +170,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100014">
-		<Name>石斧巨人</Name>
+		<Name>程咬金</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>7700</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10014</UnlockHeroID>
@@ -183,10 +183,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100015">
-		<Name>惩戒者</Name>
+		<Name>盘古</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>7700</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10015</UnlockHeroID>
@@ -196,10 +196,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100016">
-		<Name>洞窟蝙蝠</Name>
+		<Name>蝙蝠</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>9200</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10016</UnlockHeroID>
@@ -209,10 +209,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100017">
-		<Name>瘟疫巫师</Name>
+		<Name>巫师</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>9200</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10017</UnlockHeroID>
@@ -225,7 +225,7 @@
 		<Name>嗜魂者</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>17300</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10018</UnlockHeroID>
@@ -235,10 +235,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100019">
-		<Name>泰狱神</Name>
+		<Name>石神</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>17300</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10019</UnlockHeroID>
@@ -249,10 +249,10 @@
 	</info>
 	<info/>
 	<info un32ID="100021">
-		<Name>黑魔律</Name>
+		<Name>大乔</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>7700</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10021</UnlockHeroID>
@@ -262,10 +262,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="100022">
-		<Name>幻魔之刃</Name>
+		<Name>狄仁杰</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1</un8ConsumeType>
-		<n32Price>13800</n32Price>
+		<n32Price>1</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>1</bIsShowInHeroInfo>
 		<UnlockHeroID>10022</UnlockHeroID>
@@ -276,7 +276,7 @@
 	</info>
 	<info/>
 	<info un32ID="101001">
-		<Name>飞樱漫舞(3天)</Name>
+		<Name>伽罗(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2500,250</n32Price>
@@ -289,7 +289,7 @@
 		<OnSaleSkins>111001,111002</OnSaleSkins>
 	</info>
 	<info un32ID="101002">
-		<Name>破灭之剑(3天)</Name>
+		<Name>亚瑟(3天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -302,7 +302,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101003">
-		<Name>幽影幻刺(3天)</Name>
+		<Name>橘右京(3天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -315,7 +315,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101004">
-		<Name>绝对零度(3天)</Name>
+		<Name>冰霜法师(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -328,7 +328,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101005">
-		<Name>湮灭烈焰(3天)</Name>
+		<Name>火龙(3天)</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -341,10 +341,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101006">
-		<Name>流星之箭(3天)</Name>
+		<Name>虞姬(3天)</Name>
 		<HeroKind>1</HeroKind>
-		<un8ConsumeType>1,2</un8ConsumeType>
-		<n32Price>1500,150</n32Price>
+		<un8ConsumeType>0</un8ConsumeType>
+		<n32Price>0</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>0</bIsShowInHeroInfo>
 		<UnlockHeroID>10006</UnlockHeroID>
@@ -354,7 +354,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101007">
-		<Name>剧毒行者(3天)</Name>
+		<Name>毒蜘蛛(3天)</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -367,7 +367,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101008">
-		<Name>冲刺之牙(3天)</Name>
+		<Name>典韦(3天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -380,7 +380,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101009">
-		<Name>征战先锋(3天)</Name>
+		<Name>斧骑士(3天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -393,7 +393,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101010">
-		<Name>深渊之刺(3天)</Name>
+		<Name>刺甲虫(3天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>900,90</n32Price>
@@ -406,7 +406,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101011">
-		<Name>风暴之女(3天)</Name>
+		<Name>武则天(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1100,110</n32Price>
@@ -419,7 +419,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101012">
-		<Name>炼狱使者(3天)</Name>
+		<Name>血狼(3天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1500,150</n32Price>
@@ -432,7 +432,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101013">
-		<Name>寒辉之羽(3天)</Name>
+		<Name>冰精灵(3天)</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1100,110</n32Price>
@@ -445,7 +445,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101014">
-		<Name>石斧巨人(3天)</Name>
+		<Name>程咬金(3天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1500,150</n32Price>
@@ -458,7 +458,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101015">
-		<Name>惩戒者(3天)</Name>
+		<Name>盘古(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1100,110</n32Price>
@@ -471,7 +471,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101016">
-		<Name>洞窟蝙蝠(3天)</Name>
+		<Name>蝙蝠(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1100,110</n32Price>
@@ -484,7 +484,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101017">
-		<Name>瘟疫巫师(3天)</Name>
+		<Name>巫师(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>900,90</n32Price>
@@ -510,7 +510,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101019">
-		<Name>泰狱神(3天)</Name>
+		<Name>石神(3天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1100,110</n32Price>
@@ -524,7 +524,7 @@
 	</info>
 	<info/>
 	<info un32ID="101021">
-		<Name>黑魔律(3天)</Name>
+		<Name>大乔(3天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1500,150</n32Price>
@@ -537,7 +537,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="101022">
-		<Name>幻魔之刃(3天)</Name>
+		<Name>狄仁杰(3天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1500,150</n32Price>
@@ -551,7 +551,7 @@
 	</info>
 	<info/>
 	<info un32ID="102001">
-		<Name>飞樱漫舞(7天)</Name>
+		<Name>伽罗(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2500,250</n32Price>
@@ -564,7 +564,7 @@
 		<OnSaleSkins>111001,111002</OnSaleSkins>
 	</info>
 	<info un32ID="102002">
-		<Name>破灭之剑(7天)</Name>
+		<Name>亚瑟(7天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -577,7 +577,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102003">
-		<Name>幽影幻刺(7天)</Name>
+		<Name>橘右京(7天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -590,7 +590,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102004">
-		<Name>绝对零度(7天)</Name>
+		<Name>冰霜法师(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -603,7 +603,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102005">
-		<Name>湮灭烈焰(7天)</Name>
+		<Name>火龙(7天)</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -616,10 +616,10 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102006">
-		<Name>流星之箭(7天)</Name>
+		<Name>虞姬(7天)</Name>
 		<HeroKind>1</HeroKind>
-		<un8ConsumeType>1,2</un8ConsumeType>
-		<n32Price>3000,300</n32Price>
+		<un8ConsumeType>0</un8ConsumeType>
+		<n32Price>0</n32Price>
 		<bIsShowInShop>1</bIsShowInShop>
 		<bIsShowInHeroInfo>0</bIsShowInHeroInfo>
 		<UnlockHeroID>10006</UnlockHeroID>
@@ -629,7 +629,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102007">
-		<Name>剧毒行者(7天)</Name>
+		<Name>毒蜘蛛(7天)</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -642,7 +642,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102008">
-		<Name>冲刺之牙(7天)</Name>
+		<Name>典韦(7天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -655,7 +655,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102009">
-		<Name>征战先锋(7天)</Name>
+		<Name>斧骑士(7天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>0</un8ConsumeType>
 		<n32Price>0</n32Price>
@@ -668,7 +668,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102010">
-		<Name>深渊之刺(7天)</Name>
+		<Name>刺甲虫(7天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1800,180</n32Price>
@@ -681,7 +681,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102011">
-		<Name>风暴之女(7天)</Name>
+		<Name>武则天(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2250,225</n32Price>
@@ -694,7 +694,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102012">
-		<Name>炼狱使者(7天)</Name>
+		<Name>血狼(7天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>3000,300</n32Price>
@@ -707,7 +707,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102013">
-		<Name>寒辉之羽(7天)</Name>
+		<Name>冰精灵(7天)</Name>
 		<HeroKind>3</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2250,225</n32Price>
@@ -720,7 +720,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102014">
-		<Name>石斧巨人(7天)</Name>
+		<Name>程咬金(7天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>3000,300</n32Price>
@@ -733,7 +733,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102015">
-		<Name>惩戒者(7天)</Name>
+		<Name>盘古(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2250,225</n32Price>
@@ -746,7 +746,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102016">
-		<Name>洞窟蝙蝠(7天)</Name>
+		<Name>蝙蝠(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2250,225</n32Price>
@@ -759,7 +759,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102017">
-		<Name>瘟疫巫师(7天)</Name>
+		<Name>巫师(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>1800,180</n32Price>
@@ -785,7 +785,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102019">
-		<Name>泰狱神(7天)</Name>
+		<Name>石神(7天)</Name>
 		<HeroKind>4</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>2250,225</n32Price>
@@ -799,7 +799,7 @@
 	</info>
 	<info/>
 	<info un32ID="102021">
-		<Name>黑魔律(7天)</Name>
+		<Name>大乔(7天)</Name>
 		<HeroKind>2</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>3000,300</n32Price>
@@ -812,7 +812,7 @@
 		<OnSaleSkins>0</OnSaleSkins>
 	</info>
 	<info un32ID="102022">
-		<Name>幻魔之刃(7天)</Name>
+		<Name>狄仁杰(7天)</Name>
 		<HeroKind>1</HeroKind>
 		<un8ConsumeType>1,2</un8ConsumeType>
 		<n32Price>3000,300</n32Price>

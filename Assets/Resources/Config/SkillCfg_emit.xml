@@ -411,7 +411,7 @@
 		<EventID>120033</EventID>
 	</info>
 	<info un32ID="130016">
-		<szName>寒辉之羽攻击</szName>
+		<szName>冰精灵攻击</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -519,7 +519,7 @@
 		<EventID>120040:0;120041:0;120042:0</EventID>
 	</info>
 	<info un32ID="130020">
-		<szName>洞窟蝙蝠攻击</szName>
+		<szName>蝙蝠攻击</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>
@@ -546,7 +546,7 @@
 		<EventID>120043</EventID>
 	</info>
 	<info un32ID="130021">
-		<szName>瘟疫巫师攻击</szName>
+		<szName>巫师攻击</szName>
 		<n32UseMP>0</n32UseMP>
 		<n32UseHP>0</n32UseHP>
 		<n32UseCP>0</n32UseCP>

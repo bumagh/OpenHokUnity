@@ -201,7 +201,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="26">
-		<Head_Name>寒辉之羽</Head_Name>
+		<Head_Name>冰精灵</Head_Name>
 		<Head_Type>2</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>37</Atlas_Num>
@@ -209,7 +209,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="27">
-		<Head_Name>石斧巨人</Head_Name>
+		<Head_Name>程咬金</Head_Name>
 		<Head_Type>1</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>38</Atlas_Num>
@@ -217,7 +217,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="28">
-		<Head_Name>惩戒者</Head_Name>
+		<Head_Name>盘古</Head_Name>
 		<Head_Type>1</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>39</Atlas_Num>
@@ -225,7 +225,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="29">
-		<Head_Name>洞窟蝙蝠</Head_Name>
+		<Head_Name>蝙蝠</Head_Name>
 		<Head_Type>1</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>40</Atlas_Num>
@@ -233,7 +233,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="30">
-		<Head_Name>黑魔律</Head_Name>
+		<Head_Name>大乔</Head_Name>
 		<Head_Type>2</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>42</Atlas_Num>
@@ -249,7 +249,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="32">
-		<Head_Name>泰狱神</Head_Name>
+		<Head_Name>石神</Head_Name>
 		<Head_Type>1</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>49</Atlas_Num>
@@ -265,7 +265,7 @@
 		<Account_Level>1</Account_Level>
 	</info>
 	<info HeadID="34">
-		<Head_Name>瘟疫巫师</Head_Name>
+		<Head_Name>巫师</Head_Name>
 		<Head_Type>1</Head_Type>
 		<Atlas>TeamHead2</Atlas>
 		<Atlas_Num>51</Atlas_Num>
