@@ -33,7 +33,7 @@ namespace BlGame.Ctrl
             NetworkManager.Instance.canReconnect = false;
             NetworkManager.Instance.Close();
 //            NetworkManager.Instance.Init(JxBlGame.Instance.LoginServerAdress, 49996, NetworkManager.ServerType.LoginServer);
-			NetworkManager.Instance.Init("101.43.115.124", 49996, NetworkManager.ServerType.LoginServer);
+			NetworkManager.Instance.Init(JxBlGame.Instance.LoginServerAdress, 49996, NetworkManager.ServerType.LoginServer);
 //			NetworkManager.Instance.Init("192.168.56.101", 49996, NetworkManager.ServerType.LoginServer);
         }
 
@@ -49,7 +49,7 @@ namespace BlGame.Ctrl
         {
             BSToGC.AskGateAddressRet pMsg = ProtoBuf.Serializer.Deserialize<BSToGC.AskGateAddressRet>(stream);
             //SelectServerData.Instance.GateServerAdress = pMsg.ip;
-			SelectServerData.Instance.GateServerAdress = "101.43.115.124";
+			SelectServerData.Instance.GateServerAdress = JxBlGame.Instance.LoginServerAdress;
 //			SelectServerData.Instance.GateServerAdress = "192.168.56.101";
             //"212.64.12.155"
             SelectServerData.Instance.GateServerPort = pMsg.port;
@@ -58,7 +58,7 @@ namespace BlGame.Ctrl
             NetworkManager.Instance.canReconnect = false;
             NetworkManager.Instance.Close();
 
-			NetworkManager.Instance.Init("101.43.115.124", pMsg.port, NetworkManager.ServerType.GateServer); 
+			NetworkManager.Instance.Init(JxBlGame.Instance.LoginServerAdress, pMsg.port, NetworkManager.ServerType.GateServer); 
 //			NetworkManager.Instance.Init("192.168.56.101", pMsg.port, NetworkManager.ServerType.GateServer); 
 
             EventCenter.Broadcast(EGameEvent.eGameEvent_LoginSuccess);
@@ -76,7 +76,7 @@ namespace BlGame.Ctrl
         {
             string ip = JxBlGame.Instance.ipList.ElementAt(i);
 //            JxBlGame.Instance.LoginServerAdress = "192.168.56.101";
-			JxBlGame.Instance.LoginServerAdress = "101.43.115.124";
+			// JxBlGame.Instance.LoginServerAdress = "101.43.115.124";
         }
 
         //更新服务器列表

@@ -149,7 +149,8 @@ namespace BlGame.Network
         {
             Debugger.Log("set network ip:" + ip + " port:" + port + " type:" + type);
             // m_IP = ip;
-            m_IP = "101.43.115.124";
+            // m_IP = "101.43.115.124";
+            m_IP = JxBlGame.Instance.LoginServerAdress;
 
             m_Port = port;
             serverType = type;
